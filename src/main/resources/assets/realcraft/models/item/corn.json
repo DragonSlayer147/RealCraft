@@ -1,6 +1,7 @@
 {
 	"parent": "item/generated",
-	"textures": {
-		"layer0": "realcraftmod:items/corn"
+	"textures": 
+	{
+		"layer0": "realcraft:items/corn"
 	}
 }

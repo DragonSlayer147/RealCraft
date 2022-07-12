@@ -13,8 +13,8 @@ import com.realcraft.thefatherkaz.proxy.CommonProxy;
 import com.realcraft.thefatherkaz.util.Reference;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.NAME)
-public class RealCraft {
-
+public class RealCraft 
+{
 	@Instance
 	public static RealCraft instance;
 	
@@ -25,19 +25,23 @@ public class RealCraft {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		
-		
 	}
+	
+	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
 		
-		
 	}
+	
+	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		
 		
 	}
 
 	@EventHandler
-	public void serverInit(FMLServerStartingEvent event) {}
+	public void serverInit(FMLServerStartingEvent event) 
+	{
+		
+	}
 }
