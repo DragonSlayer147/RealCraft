@@ -11,11 +11,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
 import com.realcraft.thefatherkaz.proxy.CommonProxy;
+import com.realcraft.thefatherkaz.recipes.SmeltingRecipes;
 import com.realcraft.thefatherkaz.tabs.RealCraftBuildingBlocksTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftCombatTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftDecorationBlocksTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftDevTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftFoodstuffsTab;
+import com.realcraft.thefatherkaz.tabs.RealCraftMedicineTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftMiscellaneousTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftTechnologyTab;
 import com.realcraft.thefatherkaz.tabs.RealCraftToolsTab;
@@ -39,6 +41,7 @@ public class RealCraft
 	public static final CreativeTabs REALCRAFTFOODSTUFFSTAB = new RealCraftFoodstuffsTab("realcraftfoodstuffstab");
 	public static final CreativeTabs REALCRAFTTOOLSTAB = new RealCraftToolsTab("realcrafttoolstab");
 	public static final CreativeTabs REALCRAFTCOMBATTAB = new RealCraftCombatTab("realcraftcombattab");
+	public static final CreativeTabs REALCRAFTMEDICINETAB = new RealCraftMedicineTab("realcreaftmedicinetab");
 	
 	public static final CreativeTabs REALCRAFTDEVTAB = new RealCraftDevTab("realcraftdevtab");
 	
@@ -51,7 +54,7 @@ public class RealCraft
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		
+		SmeltingRecipes.init();
 	}
 	
 	@EventHandler

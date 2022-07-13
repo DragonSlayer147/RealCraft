@@ -1,8 +1,15 @@
 //Items
 item.corn.name=Corn
+item.butter.name=Butter
+item.rock.name=Rock
+item.raw_copper.name=Raw Copper
+item.copper_ingot.name=Copper Ingot
+item.popcorn.name=Popcorn
 
 //Blocks
 tile.bronze_block.name=Bronze Block
+tile.copper_block.name=Copper Block
+tile.copper_ore.name=Copper Ore
 
 //Tabs
 itemGroup.realcraftdevtab=RealCraft Dev Tab
@@ -15,3 +22,4 @@ itemGroup.realcraftmiscellaneoustab=RealCraft Miscellaneous
 itemGroup.realcraftfoodstuffstab=RealCraft Foodstuffs
 itemGroup.realcrafttoolstab=RealCraft Tools
 itemGroup.realcraftcombattab=RealCraft Combat
+itemGroup.realcraftmedicinetab=RealCraft Medicine

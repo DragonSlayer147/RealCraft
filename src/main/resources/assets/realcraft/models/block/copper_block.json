@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "realcraft:blocks/copper_block"
+	}
+}

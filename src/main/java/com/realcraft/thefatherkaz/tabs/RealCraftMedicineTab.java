@@ -5,17 +5,17 @@ import com.realcraft.thefatherkaz.init.ItemInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
-public class RealCraftMiscellaneousTab extends CreativeTabs
+public class RealCraftMedicineTab extends CreativeTabs
 {
-	public RealCraftMiscellaneousTab(String label)
+	public RealCraftMedicineTab(String label)
 	{
-		super("realcraftmiscellaneoustab");
+		super("realcraftmedicinetab");
 		this.setBackgroundImageName("realcraft.png");
 	}
 	
 	@Override
 	public ItemStack getTabIconItem()
 	{
-		return new 	ItemStack(ItemInit.ROCK);
+		return new 	ItemStack(ItemInit.CORN);
 	}
 }

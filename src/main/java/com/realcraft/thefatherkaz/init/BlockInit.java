@@ -17,4 +17,14 @@ public class BlockInit
 	
 	//Building Blocks
 	public static final Block BRONZE_BLOCK = new BuildingBlocksBase("bronze_block", Material.IRON);
+	public static final Block COPPER_BLOCK = new BuildingBlocksBase("copper_block", Material.IRON);
+	public static final Block COPPER_ORE = new BuildingBlocksBase("copper_ore", Material.ROCK);
+	
+	//Decoration Blocks
+	
+	//Technology
+	
+	//Transportation
+	
+	//Miscellaneous
 }
