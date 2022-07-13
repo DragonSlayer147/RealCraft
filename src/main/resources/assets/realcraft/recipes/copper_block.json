@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "realcraft:copper_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "realcraft:copper_block",
+        "count": 1
+    }
+}
