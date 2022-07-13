@@ -10,14 +10,14 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BlockBase extends Block implements IHasModel
+public class TechnologyBase extends Block implements IHasModel
 {
-	public BlockBase(String name, Material material)
+	public TechnologyBase(String name, Material material)
 	{
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(RealCraft.REALCRAFTDEVTAB);
+		setCreativeTab(RealCraft.REALCRAFTTECHNOLOGYTAB);
 		
 		BlockInit.BLOCKS.add(this);
 		ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

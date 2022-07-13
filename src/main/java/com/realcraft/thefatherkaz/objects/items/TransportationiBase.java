@@ -6,13 +6,13 @@ import com.realcraft.thefatherkaz.util.interfaces.IHasModel;
 
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel {
+public class TransportationiBase extends Item implements IHasModel {
 
-	public ItemBase(String name){
+	public TransportationiBase(String name){
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(RealCraft.REALCRAFTDEVTAB);
+		setCreativeTab(RealCraft.REALCRAFTTECHNOLOGYTAB);
 		
 		ItemInit.ITEMS.add(this);
 	}

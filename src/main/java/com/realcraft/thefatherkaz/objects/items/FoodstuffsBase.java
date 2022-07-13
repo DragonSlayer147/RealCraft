@@ -6,13 +6,13 @@ import com.realcraft.thefatherkaz.util.interfaces.IHasModel;
 
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel {
+public class FoodstuffsBase extends Item implements IHasModel {
 
-	public ItemBase(String name){
+	public FoodstuffsBase(String name){
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(RealCraft.REALCRAFTDEVTAB);
+		setCreativeTab(RealCraft.REALCRAFTFOODSTUFFSTAB);
 		
 		ItemInit.ITEMS.add(this);
 	}

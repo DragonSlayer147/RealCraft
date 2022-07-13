@@ -1,1 +1,17 @@
+//Items
 item.corn.name=Corn
+
+//Blocks
+tile.bronze_block.name=Bronze Block
+
+//Tabs
+itemGroup.realcraftdevtab=RealCraft Dev Tab
+
+itemGroup.realcraftbuildingblockstab=RealCraft Building Blocks
+itemGroup.realcraftdecorationblockstab=RealCraft Decoration Blocks
+itemGroup.realcrafttechnologytab=RealCraft Technology
+itemGroup.realcrafttransportationtab=RealCraft Transportation
+itemGroup.realcraftmiscellaneoustab=RealCraft Miscellaneous
+itemGroup.realcraftfoodstuffstab=RealCraft Foodstuffs
+itemGroup.realcrafttoolstab=RealCraft Tools
+itemGroup.realcraftcombattab=RealCraft Combat
