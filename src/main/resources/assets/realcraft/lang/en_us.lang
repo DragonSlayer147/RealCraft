@@ -5,6 +5,14 @@ item.rock.name=Rock
 item.raw_copper.name=Raw Copper
 item.copper_ingot.name=Copper Ingot
 item.popcorn.name=Popcorn
+item.coffee_beans.name=Coffee Beans
+item.lettuce.name=Lettuce
+item.marijuana.name=Marijuana
+item.cotton.name=Cotton
+item.peanuts.name=Peanuts
+item.raw_rice.name=Raw Rice
+item.tomato.name=Tomato
+item.eggplant.name=Eggplant
 
 //Blocks
 tile.bronze_block.name=Bronze Block
